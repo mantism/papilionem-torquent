@@ -2,14 +2,20 @@
   "name": "papilionem-torquent",
   "version": "1.0.0",
   "description": "tricking training app",
-  "main": "index.js",
+  "main": "index.ts",
   "author": "Mikael Mantis",
   "license": "ISC",
   "private": true,
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "@types/express": "^4.17.15",
+    "@types/jest": "^29.2.4",
     "@types/node": "^18.11.18",
     "express": "^4.18.2",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
   }
